@@ -1,0 +1,239 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+html {
+    font-size:16px;
+}
+
+
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+	max-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    height: auto;
+    width: 100%;
+}
+
+header h1 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0em;
+	width: 90%;
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: 0.1875em solid #77a466;
+}
+
+header h1 span {
+	color: #77a466;
+    font-style: italic;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+    width: 100%;
+    padding-right: 30px;
+}
+
+header nav ul {
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875em;
+    padding-bottom: 25px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+	height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.main-image img {
+	width: 100%;
+	border: 0.1875em solid #77a466;
+}
+
+.main-title {
+	height: auto;
+}
+
+.main-title h3 {
+	align-items: flex-start;
+	padding-left: 20px;
+    padding-right: 20px;
+	color: #77a466;
+    font-size: 1.1em;
+}
+.main-title p {
+	padding-left: 20px;
+    padding-right: 20px;
+	font-size: 1em;
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 100%;
+	border-top: 1px solid #eee;
+}
+
+.section-one h4 {
+	padding-left: 20px;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.section-two {
+	border-left: 1em solid #eee;
+	border-right: 1em solid #eee;
+}
+
+.section-two h4,
+.section-three h4 {
+    align-items: flex-start;
+	padding-left: 20px;
+    font-weight: bold;
+}
+
+.menu {
+	list-style: none;
+	padding-left: 20px;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 21px;
+    padding-left: 20px;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 24px;
+    padding-left: 20px;
+}
+
+/*The widths are in a percentage!*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width 100%;
+	height: 3.125em;
+	border-top: 0.1875em solid #eee;
+
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 1.3em;
+}
+
+
+
+/*******TABLET LAYOUT********/
+
+@media (min-width: 768px) and (max-width: 950px;) {      
+    .section-one,
+    .section-two,
+    .section-three {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 33%;
+      flex-flow: row;   
+ }
+    
+}
+
+
