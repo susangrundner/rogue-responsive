@@ -213,6 +213,7 @@ footer {
     flex-flow: row;
     width 100%;
 	height: 3.125em;
+    border-top: 0.0625em solid #eee;
 }
 
 footer span {
@@ -247,7 +248,12 @@ footer span {
     .section-two {
         border-left: 1px solid #eee;
         border-right: 1px solid #eee;
+        border-bottom: none;
         padding: 0 20px;
+    }
+    
+    footer {
+        border-top: none;
     }
     
 }
@@ -289,7 +295,9 @@ footer span {
     footer {
 	height: 3.50em;
     word-spacing: 3px;
-    font-size: 2.0
+    font-size: 2.0;
+    border-top: none;
+        
     }
     
     footer span {
