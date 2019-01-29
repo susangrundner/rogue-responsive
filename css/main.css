@@ -231,7 +231,7 @@ footer span {
     
     .bottom-section {
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         flex-flow: row nowrap;
         border-top: 1px solid #eee;
         border-bottom: 0.0625em solid #eee;
